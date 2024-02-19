@@ -46,11 +46,11 @@ public class List {
         Node current = this.first;
         while(current != null)
         {
-            str += current.cp.toString();
+            str += current.cp.toString() + " ";
             current = current.next;
         } 
         str += ")";
-        return str;
+        return str.substring(0,str.length() -1) + ")";
     
                 
         
