@@ -40,6 +40,8 @@ public class List {
     /** GIVE Textual representation of this list. */
     public String toString() {
         // Your code goes here
+        if(this.size == 0)
+            return "()";
         String str = "(";
         Node current = this.first;
         while(current != null)
