@@ -64,7 +64,7 @@ public class List {
             return -1;    
         }
 
-        int index = 1;
+        int index = 0;
         Node current = this.first;
         while(current.next!=null)
         {
