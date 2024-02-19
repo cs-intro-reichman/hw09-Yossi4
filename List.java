@@ -139,7 +139,7 @@ public class List {
         }
         else
         {
-            for (int i = 0; i < index ;i++ ) 
+            for (int i = 0; i <= index ;i++ ) 
             {
                 current = current.next;    
             }
