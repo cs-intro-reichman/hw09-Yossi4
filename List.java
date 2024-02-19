@@ -40,13 +40,14 @@ public class List {
     /** GIVE Textual representation of this list. */
     public String toString() {
         // Your code goes here
-        String str = "";
+        String str = "(";
         Node current = this.first;
         while(current != null)
         {
             str += current.cp.toString();
             current = current.next;
         } 
+        str += ")";
         return str;
     
                 
