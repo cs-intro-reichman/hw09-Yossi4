@@ -66,7 +66,7 @@ public class List {
 
         int index = 0;
         Node current = this.first;
-        while(current.next!=null)
+        while(current!=null)
         {
             if (current.cp.equals(chr))
             {
