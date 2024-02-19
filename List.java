@@ -47,6 +47,7 @@ public class List {
             str += current.cp.toString();
             current = current.next;
         } 
+        str += ")";
         return str;
     
                 
